@@ -1,0 +1,93 @@
+.container {
+    width: 80%;
+    margin: auto;
+    padding-top: 1rem;
+}
+
+.name > div {
+    display: inline-block;
+    margin: 0.2rem 1rem;
+}
+
+.contact > div {
+    display: inline-block;
+    margin: 0.2rem 1rem;
+}
+
+.street > div:first-child {
+    display: block;
+    width: 57%;
+}
+
+.street > div{
+    display: inline-block;
+    margin: 0.2rem 1rem;
+}
+
+.city > div{
+    display: inline-block;
+    margin: 0.2rem 1rem;
+}
+
+.country > div{
+    display: inline-block;
+    margin: 0.2rem 1rem;
+}
+
+.nav-btn {
+    width: 100%;
+    position: relative;
+    top: 10px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.next, .previous {
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+    padding: 0.3rem 1rem;
+    background-color: #cb4c1f;
+}
+
+.next > a,.previous > a{
+    color: white;
+    text-decoration: none;
+}
+
+.form-head {
+    font-weight: 600;
+    color: #132c51;
+    margin: 0.8rem 0;
+}
+
+.disabledCursor {
+    background-color: #ccc !important;
+}
+
+.tooltip {
+    display: inline;
+}
+
+.tooltip .tooltiptext {
+    display: none;
+    width: 240px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 4px 0;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    bottom: 80px;
+    margin-left: -60px;
+}
+
+  
+.tooltip:hover .tooltiptext {
+    display: inline;
+}
+

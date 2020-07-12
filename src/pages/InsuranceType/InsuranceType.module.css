@@ -1,0 +1,58 @@
+.container {
+    width: 80%;
+    margin: auto;
+    min-height: 80vh;
+    padding-top: 1rem;
+    position: relative;
+}
+
+.input-group {
+    margin: 1rem auto;
+    width: 200px;
+}
+
+.input-group > select {
+    width: 100%;
+    padding: 0.3rem;
+}
+
+.input-group > input {
+    width: 100%;
+    padding: 0.3rem;
+}
+
+.input-group label {
+    display: block;
+    text-align: left;
+}
+
+.nav-btn {
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.next{
+    cursor: pointer;
+    width: 100px;
+    text-align: center;
+    padding: 0.3rem 1rem;
+    background-color: #cb4c1f;
+}
+
+.next > a{
+    color: white;
+    text-decoration: none;
+}
+
+.form-head {
+    text-align: center;
+    font-weight: 600;
+    color: #132c51;
+    margin: 0.8rem 0;
+}

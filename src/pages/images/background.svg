@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1400" height="639" viewBox="0 0 1400 639">
+    <defs>
+        <path id="a" d="M0 0h437v516H0z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#0D1E37" d="M0 0h1400v639H0z"/>
+        <g transform="translate(963 123)">
+            <mask id="b" fill="#fff">
+                <use xlink:href="#a"/>
+            </mask>
+            <use fill="#0D1E37" xlink:href="#a"/>
+            <g mask="url(#b)">
+                <g transform="rotate(28 231.7 450.88)">
+                    <circle cx="110.5" cy="387.5" r="110" stroke="#394E64" stroke-opacity=".3" stroke-width="60" transform="rotate(-90 110.5 387.5)"/>
+                    <circle cx="422.5" cy="387.5" r="110" stroke="#394E64" stroke-opacity=".3" stroke-width="60" transform="rotate(-90 422.5 387.5)"/>
+                    <circle cx="265.5" cy="110.5" r="110" stroke="#394E64" stroke-opacity=".3" stroke-width="60" transform="rotate(-90 265.5 110.5)"/>
+                    <circle cx="111" cy="387" r="62.5" fill="#394E64" fill-opacity=".4" transform="rotate(-90 111 387)"/>
+                    <circle cx="423" cy="387" r="62.5" fill="#394E64" fill-opacity=".4" transform="rotate(-90 423 387)"/>
+                    <circle cx="265" cy="111" r="62.5" fill="#394E64" fill-opacity=".4" transform="rotate(-90 265 111)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

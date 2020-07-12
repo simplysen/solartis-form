@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  font-family: 'Poppins';
+  background-image: url('./pages/images/background.svg');
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+label {
+  color: rgba(19,44,81, 0.875);
+  font-weight: 600;
+}
+
+.logo {
+  text-align: center;
+  transform: scale(0.65);
+}
+
+.logo:after {
+  content: url('./pages/images/solartis-logo.png');
+}
+
+.logo > div {
+  width: 100%;
+  color: white;
+  letter-spacing: 30px;
+  position: absolute;
+  bottom: -26px;
+  margin-left: 1rem;
+  font-size: large;
+}
+
+.main__container {
+  width: 80%;
+  position: relative;
+  top: 14px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(250,250,250, 0.5);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
