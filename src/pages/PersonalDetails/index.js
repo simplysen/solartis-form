@@ -7,7 +7,7 @@ class PersonalDetails extends Component {
         autocomplete: null
     }
     handleAddressChange(e) {
-        let url = 'http://photon.komoot.de/api/?q=' + e.target.value;
+        let url = 'https://photon.komoot.de/api/?q=' + e.target.value;
         axios.get(url)
             .then((response) => {
                 if (response.data.features.length) {
